@@ -51,7 +51,7 @@ public class Hashtable<K,V> extends Dictionary<K,V> implements Map<K,V>, Cloneab
    
  <h1> </h1> 
    
-<h1 align="Center"> Process of Implementation of HashTable </h1>
+<h1 align="Center"> Internal Workings of HashTable </h1>
    
 ![Screenshot (217)](https://user-images.githubusercontent.com/38869235/215149864-f79b6066-51c8-4f71-908e-e426262961b1.png)
 
@@ -60,3 +60,10 @@ public class Hashtable<K,V> extends Dictionary<K,V> implements Map<K,V>, Cloneab
  ![Screenshot (218)](https://user-images.githubusercontent.com/38869235/215150317-39759424-6c00-4cf2-8ab6-ea0541e9a2f0.png)
 
 <h3 align="Center"> <ins> Buckets </ins></i></h3>
+
+ <h3> <li> 1. As we can see that item composed of Key/Value = Item placed in each Slot / Bucket according to Index. 
+    
+![Screenshot (220)](https://user-images.githubusercontent.com/38869235/215169920-bb923f8f-7c30-4031-8c22-617a168a6c41.png)
+
+
+<h3 align="Center"> <ins> Process of Insertion of Keys and Values</ins></i></h3>
