@@ -141,7 +141,44 @@ Therefore,Resized Bucket: 9 x 2 = 18 slots .
 
  <h3> <li>Next such increase would be : 18 x2 = 36.  </li></h3>
  <h3> <i> And so on….  </i> </h3>
+ 
+ <h3> <li>But in Hash Table if 60% of Hash Table gets filled i.e. for default capacity 11 , it would be 6.6(6.6 /11 = 0.6 < 0.75) , Hash Table gets doubled.  </li></h3>
  </ul>
-   
+ 
+ <h2> </h2> 
+ <h2 align="Center">Re-Hashing  </h2>
+ 
+ <ul>
+ <h3> <li>Basically, when the load factor increases to more than its pre-defined value (e.g. 0.75 as taken in above examples), the Time Complexity for search and insert increases.So to overcome this, the size of the array is increased(usually doubled) and all the values are hashed again and stored in the new double sized array to maintain a low load factor and low complexity. It copies all the element to a new array and make it the new bucket array.
+</li></h3>
+ 
+ 
+ </ul>
+ 
+  <h2> </h2> 
+ <h2 align="Center">Collision of Index  </h2>
+ <ul>
+  <h3> <li>Definition: A collision occurs when two keys get mapped to the same index.</li></h3>
+  
+  <h2> </h2> 
+ <h2 align="Center">Handling Collisions </h2>
+ <ul>
+ <h3><li> <ins><i>1. Linear Probing:</i></ins> If a Key - Value pair is hashed to a slot which is already occupied, it searches linearly for the next free slot in the table.</li></h3>
+ 
+ <h3><li> <ins><i>2.  Chaining: </i></ins> 
+ During creation of Index, [ HashCode % No. Of Buckets = Index], if more than one index become same, then there creates a chance of collision. Hence it creates a Linked List on same index.
+ 
+ <i>Suppose,</i> 
+Index of Key 3 (K3) and Index of Key 4(K4) = 2 .
+Then it creates a chance of collision, What it does is creating a Linked List at same index.
+
+![Screenshot (221)](https://user-images.githubusercontent.com/38869235/215240974-941f1099-8f30-44b2-9c84-f2e29c0aac91.png)
+
+ </li></h3>
+ 
+ <h3><li> <ins><i>3. Maintaining Threshold:</i></ins> A hash table with a threshold of 0.6 would resize when 60% of the space is occupied. As a convention, the size of the hash table is doubled. This can be memory intensive.</li></h3>
+ 
+ </ul>
+ </ul>
  </ul>
    
