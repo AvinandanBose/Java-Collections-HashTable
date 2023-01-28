@@ -190,5 +190,9 @@ Then it creates a chance of collision, What it does is creating a Linked List at
 ![illustration-of-hashtable](https://user-images.githubusercontent.com/38869235/215241615-bf51c04a-a8df-42bb-a58e-f7a2b25987b4.jpg)
 
  </ul>
+ 
  </ul>
+ 
+ <h1> </h1> 
+ <h1 align="Center">Strengths And Weaknesses of Hash Table </h1>
    
