@@ -184,7 +184,11 @@ Then it creates a chance of collision, What it does is creating a Linked List at
 <h2> </h2> 
  <h2 align="Center">HashTable - A Thread Safe Property </h2>
  <ul>
- 
+<h3><li>1. Hashtable is synchronized and offers thread safety comparable to concurrentHashMap.</li></h3> 
+ <h3><li>2.  Hashtable writes operations employ hashtable wide lock, which locks the whole hashtable object.</li></h3>
+
+![illustration-of-hashtable](https://user-images.githubusercontent.com/38869235/215241615-bf51c04a-a8df-42bb-a58e-f7a2b25987b4.jpg)
+
  </ul>
  </ul>
    
