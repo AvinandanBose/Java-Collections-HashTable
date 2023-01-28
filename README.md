@@ -61,9 +61,12 @@ public class Hashtable<K,V> extends Dictionary<K,V> implements Map<K,V>, Cloneab
 
 <h3 align="Center"> <ins> Buckets </ins></i></h3>
 
- <h3> <li> 1. As we can see that item composed of Key/Value = Item placed in each Slot / Bucket according to Index. 
+<h3> <li> 1. As we can see that item composed of Key/Value = Item placed in each Slot / Bucket according to Index. </li> </h3>
     
 ![Screenshot (220)](https://user-images.githubusercontent.com/38869235/215169920-bb923f8f-7c30-4031-8c22-617a168a6c41.png)
 
 
 <h3 align="Center"> <ins> Process of Insertion of Keys and Values</ins></i></h3>
+   
+<h3> <li> 2. Each Key is converted to Hash by calling hashcode() method. </li> </h3>
+<h3> <li> 3. Next each converted hash coded key modulo (%) with no. of slots present in the array of buckets from which we get index of the Bucket at which we can store that particular Key/Value pair . And this process continues for each Key-Value pair .</li> </h3>
