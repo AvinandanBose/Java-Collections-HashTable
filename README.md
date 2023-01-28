@@ -48,3 +48,15 @@ public class Hashtable<K,V> extends Dictionary<K,V> implements Map<K,V>, Cloneab
 <h3> <li>10. The default loadFactor is 0.75 .</li></h3>
 
 <h3> <li>11. HashMap doesn’t provide any Enumeration, while Hashtable provides not fail-fast Enumeration.</li></h3>
+   
+ <h1> </h1> 
+   
+<h1 align="Center"> Process of Implementation of HashTable </h1>
+   
+![Screenshot (217)](https://user-images.githubusercontent.com/38869235/215149864-f79b6066-51c8-4f71-908e-e426262961b1.png)
+
+<h3 align="Center"> <ins> Linked List </ins></i></h3>
+   
+ ![Screenshot (218)](https://user-images.githubusercontent.com/38869235/215150317-39759424-6c00-4cf2-8ab6-ea0541e9a2f0.png)
+
+<h3 align="Center"> <ins> Buckets </ins></i></h3>
