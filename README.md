@@ -99,7 +99,7 @@ public class Hashtable<K,V> extends Dictionary<K,V>
   <h3> <li> Load Factor is calculated = Total No. of Entries in Hash Table / Total size of Hash Table. </li></h3> 
    <h3> <li> Or Load Factor = Total number of Elements / (Total number of Buckets/Slots) </li></h3>   
    <h3> <li> Suppose we need to enter 4 entries i.e., 4 is here the initial capacity or we can say total size of Hash Table.
-But we have entered 3 entries , hence ¾ = 0.74 (Load Factor). 
+But we have entered 3 entries , hence ¾ = 0.75 (Load Factor). 
  </li></h3>   
      
  <h3> <li> Default No. of Buckets / Default Capacity of Hash Table = 11.</li></h3>  
@@ -143,7 +143,7 @@ Therefore,Resized Bucket: 9 x 2 = 18 slots .
  <h3> <li>Next such increase would be : 18 x2 = 36.  </li></h3>
  <h3> <i> And so on….  </i> </h3>
  
- <h3> <li>But in Hash Table if 60% of Hash Table gets filled i.e. for default capacity 11 , it would be 6.6(6.6 /11 = 0.6 < 0.75) , Hash Table gets doubled.  </li></h3>
+ <h3> <li>But in Hash Table if 60% of Hash Table gets filled i.e. for default capacity 11 , it would be 6.6(6.6 /11 = 0.6 < 0.75) , Hash Table gets doubled. Here default threshold is 3/4 = 0.75 i.e. default load factor of Hash Table. </li></h3>
  </ul>
  
  <h2> </h2> 
@@ -195,4 +195,66 @@ Then it creates a chance of collision, What it does is creating a Linked List at
  
  <h1> </h1> 
  <h1 align="Center">Strengths And Weaknesses of Hash Table </h1>
-   
+	
+<ul>
+
+<table>
+<tr>	
+<th colspan="3">Time Complexity </th>
+</tr>
+<tr>	
+<td>Operation </td>
+<td>Average</td>
+<td>Worst</td>
+</tr>
+<tr>	
+<td>Search </td>
+<td>O(1)</td>
+<td>O(n)</td>
+</tr>
+<tr>	
+<td>Insertion </td>
+<td>O(1)</td>
+<td>O(n)</td>
+</tr>
+<tr>	
+<td>Deletion </td>
+<td>O(1)</td>
+<td>O(n)</td>
+</tr>
+<tr>	
+<td>Space </td>
+<td>O(n)</td>
+<td>O(n)</td>
+</tr>
+</table>
+	 
+<h2> </h2> 
+ <h2 align="Center">Strengths of Hash Table </h2>
+<ul>
+<h3><li> <i><ins> 1. Fast lookups : </ins></i> Lookups take O(1) time on average.</li></h3>
+<h3><li> <i><ins> 2. Flexible keys : </ins></i> Most data types can be used for keys, as long as they’re  hashable . </li></h3>
+</ul>
+<h2> </h2> 
+ <h2 align="Center">Weakness of Hash Table </h2>
+
+<ul>
+<h3><li> <i><ins> 1. Slow worst-case lookups : </ins></i> Lookups take O(n) time  in the worst case . </li></h3>
+<h3><li> <i><ins> 2. Unordered : </ins></i> Keys aren’t stored in a special order. If you’re looking for the smallest key, the largest key, or all the keys in a range, you’ll need to look through every key to find it. </li></h3>
+<h3><li> <i><ins> 3. Single-directional lookups : </ins></i> While we can look up the value for a given key in O(1) time, looking up the keys for a given value requires looping through the whole dataset—O(n) time. </li></h3>
+<h3><li> <i><ins> 4. Not cache-friendly : </ins></i> Many hash table implementations use  linked lists , which don’t put data next to each other in memory. </li></h3>
+</ul>
+<ul>
+	
+</ul>
+</ul>
+	
+<h1> </h1> 
+ <h1 align="Center">Constructors of Hash Table </h1>
+<ul>
+</ul>
+	
+<h1> </h1> 
+<h1 align="Center">Methods of Hash Table </h1>
+<ul>
+</ul>
