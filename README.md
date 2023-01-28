@@ -342,3 +342,18 @@ in order to accommodate and access its entries more efficiently.</th>
 
 </table>
 </ul>
+
+<h1> </h1>
+<h1 align="Center"> Diagram of HashTable </h1>
+
+```mermaid
+ 
+ graph TD;
+    Map-->|implements| HashTable;
+    Serializable -->|implements| HashTable;
+    Clonable -->|implements| HashTable;
+    Dictionary -->|extends| HashTable;
+    HashTable -->|extends| Properties;
+    HashTable -->|extends| UIDefaults;
+
+```
