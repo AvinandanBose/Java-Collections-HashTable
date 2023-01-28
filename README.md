@@ -316,4 +316,29 @@ It creates a new hash table with the same mappings as the given Map.
 <h1> </h1> 
 <h1 align="Center">Methods of Hash Table </h1>
 <ul>
+<li><h3> <a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/MethodsofHashTable.java">1.Methods of Hash Table</h3></li>
+
+<h3><i><ins>Note :<ins></i> These methods are already discussed  👉: <a href="https://github.com/AvinandanBose/Java-Collections-Map"> Here </a></h3> 
+
+<li><h3> <a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/MethodsofHashTable1.java">2.ReHash()</h3></li>
+
+```Syntax
+
+Increases the capacity of and internally reorganizes this hashtable, 
+in order to accommodate and access its entries more efficiently.
+
+```
+<table>
+<tr>
+<th> New Method/s </th>
+<th> Does This</th>
+</tr>
+
+<tr>
+<th> ReHash() </th>
+<th> Increases the capacity of and internally reorganizes this hashtable, 
+in order to accommodate and access its entries more efficiently.</th>
+</tr>
+
+</table>
 </ul>
