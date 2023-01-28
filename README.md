@@ -252,6 +252,65 @@ Then it creates a chance of collision, What it does is creating a Linked List at
 <h1> </h1> 
  <h1 align="Center">Constructors of Hash Table </h1>
 <ul>
+<li><h3> <a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/ConstructorJavaHashTable.java">1. Hashtable()</h3></li>
+
+```Syntax
+
+It creates an empty hashtable having the initial default capacity and load factor.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/ConstructorJavaHashTable1.java">2. Hashtable(int capacity)</h3></li>
+
+```Syntax
+
+It accepts an integer parameter and creates a hash table that contains a specified initial capacity.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/ConstructorJavaHashTable2.java">3. Hashtable(int capacity, float loadFactor)</h3></li>
+
+```Syntax
+
+It is used to create a hash table having the specified initial capacity and loadFactor.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/ConstructorJavaHashTable3.java">4. Hashtable(Map<? extends K,? extends V> m)</h3></li>
+
+```Syntax
+
+It creates a new hash table with the same mappings as the given Map.
+
+```
+
+<table>
+<tr>
+<th> Constructors </th>
+<th> Does This</th>
+</tr>
+
+<tr>
+<td> Hashtable() </td>
+<td> It creates an empty hashtable having the initial default capacity and load factor.</td>
+</tr>
+
+<tr>
+<td> Hashtable(int capacity) </td>
+<td> It accepts an integer parameter and creates a hash table that contains a specified initial capacity.</td>
+</tr>
+
+<tr>
+<td> Hashtable(int capacity, float loadFactor) </td>
+<td> It is used to create a hash table having the specified initial capacity and loadFactor.</td>
+</tr>
+
+<tr>
+<td> Hashtable(Map<? extends K,? extends V> m) </td>
+<td> It creates a new hash table with the same mappings as the given Map.</td>
+</tr>
+</table>
+
 </ul>
 	
 <h1> </h1> 
