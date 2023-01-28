@@ -181,5 +181,10 @@ Then it creates a chance of collision, What it does is creating a Linked List at
  
  </ul>
  </ul>
+<h2> </h2> 
+ <h2 align="Center">HashTable - A Thread Safe Property </h2>
+ <ul>
+ 
+ </ul>
  </ul>
    
