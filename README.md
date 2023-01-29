@@ -402,6 +402,24 @@ public class UIDefaults extends Hashtable<Object,Object>
 <h2></h2>
 <h2 align="Center"> Description of Nested Classes of UIDefaults </h2>
 <ul>
+<h3><li> 1. UIDefaults.ActiveValue </li></h3>
+<ul>
+<h3>This class enables one to store an entry in the defaults table that's constructed each time.It have createValue(UIDefaults table) method which creates the value retrieved from the UIDefaults table.</h3>
+
+<h3><li><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/UIDefaultsClassActiveValue.java">Implementation of UIDefaults.ActiveValue Nested Class. </li></h3>
+
+<table>
+<tr>
+<th> Method/s </th>
+<th> Does This </th>
+</tr>
+<tr>
+<th> createValue(UIDefaults table) </th>
+<th> Creates the value retrieved from the UIDefaults table. </th>
+</tr>
+</table>
+</ul>
+
 
 </ul>
 </ul>
