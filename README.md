@@ -590,5 +590,184 @@ Creates a defaults table initialized with the specified key/value pairs.
 </tr>
 </table>
 
+<h2></h2>
+<h2 align="Center"> Methods of UIDefaults class </h2>
+<ul>
+<li><h3>1. Methods of UIDefaults class that falls under Java Swing </li></h3>
+<ul>
+<h3><li><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/UIDefaultsSwingMethods.java">1. a. Methods of UIDefaults class that falls under Java Swing</li></h3>
+
+<table>
+
+<tr>
+<th>Method/s</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>1. addPropertyChangeListener(PropertyChangeListener listener)</td>
+<td>Adds a PropertyChangeListener to the listener list.</td>
+</tr>
+
+<tr>
+<td>2. addResourceBundle(String bundleName)</td>
+<td>Adds a resource bundle to the list of resource bundles that are searched for localized values.</td>
+</tr>
+
+<tr>
+<td>3.get(Object key)</td>
+<td>Returns the value for key.</td>
+</tr>
+
+<tr>
+<td>4.get(Object key, Locale l)</td>
+<td>Returns the value for key associated with the given locale.</td>
+</tr>
+
+<tr>
+<td>5.getBoolean(Object key)</td>
+<td>If the value of key is boolean, return the boolean value, otherwise return false.</td>
+</tr>
+
+<tr>
+<td>6. getBoolean(Object key, Locale l)</td>
+<td>If the value of key for the given Locale is boolean, return the boolean value, otherwise return false.</td>
+</tr>
+
+<tr>
+<td>7. getBorder(Object key)</td>
+<td>If the value of key is a Border return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>8. getBorder(Object key, Locale l)</td>
+<td>If the value of key for the given Locale is a Border return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>9. getColor(Object key)</td>
+<td>If the value of key is a Color return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>10. getColor(Object key, Locale l)</td>
+<td>If the value of key for the given Locale is a Color return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>11. getDefaultLocale()</td>
+<td>Returns the default locale.</td>
+</tr>
+
+<tr>
+<td>12. getDimension(Object key)</td>
+<td>If the value of key is a Dimension return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>13. getDimension(Object key, Locale l)</td>
+<td>If the value of key for the given Locale is a Dimension return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>14. getFont(Object key)</td>
+<td>If the value of key is a Font return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>15. getFont(Object key, Locale l)</td>
+<td>If the value of key for the given Locale is a Font return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>16. getIcon(Object key)</td>
+<td>If the value of key is an Icon return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>17. getIcon(Object key, Locale l)</td>
+<td>If the value of key for the given Locale is an Icon return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>18. getInsets(Object key)</td>
+<td>If the value of key is an Insets return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>19. getInsets(Object key, Locale l)</td>
+<td>If the value of key for the given Locale is an Insets return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>20. getInt(Object key)</td>
+<td>If the value of key is an Integer return its integer value, otherwise return 0.</td>
+</tr>
+
+<tr>
+<td>21. getInt(Object key, Locale l)</td>
+<td>If the value of key for the given Locale is an Integer return its integer value, otherwise return 0.</td>
+</tr>
+
+<tr>
+<td>22. getPropertyChangeListeners()</td>
+<td>Returns an array of all the PropertyChangeListeners added to this UIDefaults with addPropertyChangeListener().</td>
+</tr>
+
+<tr>
+<td>23. getString(Object key)</td>
+<td>If the value of key is a String return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>24. getString(Object key, Locale l)</td>
+<td>If the value of key for the given Locale is a String return it, otherwise return null.</td>
+</tr>
+
+<tr>
+<td>25. getUI(JComponent target)</td>
+<td>Creates an ComponentUI implementation for the specified component.</td>
+</tr>
+
+<tr>
+<td>26. getUIClass(String uiClassID)</td>
+<td>Returns the Look And Feel class that renders this component.</td>
+</tr>
+
+<tr>
+<td>27. getUIClass(String uiClassID, ClassLoader uiClassLoader)</td>
+<td>The value of get(uidClassID) must be the String name of a class that implements the corresponding ComponentUI class.</td>
+</tr>
+
+<tr>
+<td>28. put(Object key, Object value)</td>
+<td>Puts all of the key/value pairs in the database and unconditionally generates one PropertyChangeEvent.</td>
+</tr>
+
+<tr>
+<td>29. putDefaults(Object[] keyValueList)</td>
+<td>Puts all of the key/value pairs in the database and unconditionally generates one PropertyChangeEvent.</td>
+</tr>
+
+<tr>
+<td>30. removePropertyChangeListener(PropertyChangeListener listener)</td>
+<td>Removes a PropertyChangeListener from the listener list.</td>
+</tr>
+
+<tr>
+<td>31. removeResourceBundle(String bundleName)</td>
+<td>Removes a resource bundle from the list of resource bundles that are searched for localized defaults.</td>
+</tr>
+
+<tr>
+<td>32. setDefaultLocale(Locale l)</td>
+<td>Sets the default locale.</td>
+</tr>
+
+
+</table>
+</ul>
+</ul>
+
 </ul>
 </ul>
