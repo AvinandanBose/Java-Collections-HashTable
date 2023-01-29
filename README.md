@@ -766,9 +766,8 @@ Creates a defaults table initialized with the specified key/value pairs.
 
 
 </table>
-</ul>
 <h3><li><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/UIDefaultsSwingMethods1.java">1. b. Implementation of firePropertyChange And getUIError</li></h3>
-<ul>
+
 <table>
 
 <tr>
@@ -786,6 +785,8 @@ Creates a defaults table initialized with the specified key/value pairs.
 <td>If getUI() fails for any reason, it calls this method before returning null.</td>
 </tr>
 </table>
+<h3><i><ins>Note:</ins>The focus is on implentation of the methods rather than going deeper to Java Swing package. </i> </h3> 
+
 </ul>
-<h3><i><ins>Note:</ins>The focus is on implentation of the methods rather than going deeper to Java Swing package . </i> </h3> 
+
 </ul>
