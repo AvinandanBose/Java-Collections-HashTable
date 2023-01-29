@@ -360,6 +360,25 @@ in order to accommodate and access its entries more efficiently.</th>
 
 <h1> </h1>
 <h1 align="Center"> A. UIDefaults </h1>
+
+```mermaid
+
+sequenceDiagram
+
+   javax.swing.UIDefaults->>java.util.HashTable:extends 
+  
+```
+
+<h3 align="Center">
+
+```Syntax
+
+public class UIDefaults extends Hashtable<Object,Object>
+
+```
+
+</h3>
+
 <ul>
 <h3><li> <i> <ins> 1. Def: </ins> </i> A table of defaults for Swing components. Applications can set/get default values via the UIManager. </li></h3>
 
