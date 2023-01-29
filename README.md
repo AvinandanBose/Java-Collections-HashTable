@@ -357,3 +357,9 @@ in order to accommodate and access its entries more efficiently.</th>
     HashTable -->|extends| UIDefaults;
 
 ```
+
+<h1> </h1>
+<h1 align="Center"> A. UIDefaults </h1>
+<ul>
+
+</ul>
