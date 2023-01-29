@@ -359,7 +359,7 @@ in order to accommodate and access its entries more efficiently.</th>
 ```
 
 <h1> </h1>
-<h1 align="Center"> A. UIDefaults </h1>
+<h1 align="Center"> A. UIDefaults Class</h1>
 
 ```mermaid
 
@@ -788,5 +788,15 @@ Creates a defaults table initialized with the specified key/value pairs.
 <h3><i><ins>Note:</ins>The focus is on implentation of the methods rather than going deeper to Java Swing package. </i> </h3> 
 
 </ul>
+<li><h3>2. Methods of UIDefaults class that falls under Java HashTable </li></h3>
+<ul>
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/UIDefaultsHashTableMethods.java">2.a Methods of UIDefaults class that falls under Java HashTable </li></h3>
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/UIDefaultsHashTableMethods1.java">2.b  Implementation of ReHash method in UIDefaults class</li></h3>
+
+<h3><i><ins>Note:</ins>These methods are already discussed earlier.  </i> </h3> 
 </ul>
+</ul>
+<h1> </h1>
+<h1 align="Center"> B. Properties Class </h1>
+
