@@ -402,9 +402,20 @@ public class UIDefaults extends Hashtable<Object,Object>
 <h2></h2>
 <h2 align="Center"> Description of Nested Classes of UIDefaults </h2>
 <ul>
-<h3><li> 1. UIDefaults.ActiveValue </li></h3>
+<h2><li> 1. UIDefaults.ActiveValue </li></h2>
+
+<h3 align="Center">
+
+```Syntax
+
+public static interface UIDefaults.ActiveValue
+
+```
+
+</h3>
+
 <ul>
-<h3>This class enables one to store an entry in the defaults table that's constructed each time.It have createValue(UIDefaults table) method which creates the value retrieved from the UIDefaults table.</h3>
+<h3>It is an interface class. This class enables one to store an entry in the defaults table that's constructed each time it's looked up with one of the getXXX(key) methods.It have createValue(UIDefaults table) method which creates the value retrieved from the UIDefaults table.</h3>
 
 <h3><li><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/UIDefaultsClassActiveValue.java">Implementation of UIDefaults.ActiveValue Nested Class. </li></h3>
 
@@ -419,7 +430,121 @@ public class UIDefaults extends Hashtable<Object,Object>
 </tr>
 </table>
 </ul>
+<h2><li> 2. UIDefaults.LazyInputMap </li></h2>
 
+<h3 align="Center">
+
+```Syntax
+
+public static class UIDefaults.LazyInputMap extends Object
+                         implements UIDefaults.LazyValue
+
+```
+
+</h3>
+
+<ul>
+<h3>The bindings are passed in in the constructor. The bindings are an array with the even number entries being string KeyStrokes (eg "alt SPACE") and the odd number entries being the value to use in the InputMap (and the key in the ActionMap).</h3>
+
+<h3><li><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/UIDefaultsClassLazyInputMap.java">Implementation of UIDefaults.LazyInputMap Nested Class. </li></h3>
+
+<table>
+<tr>
+<th> Method/s </th>
+<th> Does This </th>
+</tr>
+<tr>
+<th> createValue(UIDefaults table) </th>
+<th> Creates the value retrieved from the UIDefaults table. </th>
+</tr>
+</table>
 
 </ul>
+
+<h2><li> 3. UIDefaults.LazyValue </li></h2>
+<ul>
+
+<h3 align="Center">
+
+```Syntax
+
+public static interface UIDefaults.LazyValue
+
+```
+
+</h3>
+
+<h3>This class enables one to store an entry in the defaults table that isn't constructed until the first time it's looked up with one of the getXXX(key) methods. Lazy values[A value which may be lazily computed] are useful for defaults that are expensive to construct or are seldom retrieved. The first time a LazyValue is retrieved its "real value" is computed by calling LazyValue.createValue() and the real value is used to replace the LazyValue in the UIDefaults table. Subsequent lookups for the same key return the real value.</h3>
+
+<h3><li><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/UIDefaultsClassLazyValue.java">Implementation of UIDefaults.LazyValue Nested Class. </li></h3>
+
+<table>
+<tr>
+<th> Method/s </th>
+<th> Does This </th>
+</tr>
+<tr>
+<th> createValue(UIDefaults table) </th>
+<th> Creates the value retrieved from the UIDefaults table. </th>
+</tr>
+</table>
+
+</ul>
+
+<h2><li> 4. UIDefaults.ProxyLazyValue </li></h2>
+
+<h3 align="Center">
+
+```Syntax
+
+public static class UIDefaults.ProxyLazyValue
+		extends Object
+		implements UIDefaults.LazyValue
+
+```
+
+</h3>
+
+<h3>This class provides an implementation of LazyValue which can be used to delay loading of the Class for the instance to be created. It also avoids creation of an anonymous inner class for the LazyValue subclass.</h3>
+
+<h3><li><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/UIDefaultsClassProxyLazyValue.java">Implementation of UIDefaults.ProxyLazyValue Nested Class. </li></h3>
+
+<table>
+<tr>
+<th> Constructor </th>
+<th> Description </th>
+</tr>
+<tr>
+<td> UIDefaults.ProxyLazyValue(String c) </td>
+<td> Creates a LazyValue which will construct an instance when asked. </td>
+</tr>
+<tr>
+<td> UIDefaults.ProxyLazyValue(String c, Object[] o) </td>
+<td> Creates a LazyValue which will construct an instance when asked. </td>
+</tr>
+<tr>
+<td> UIDefaults.ProxyLazyValue(String c, String m) </td>
+<td> Creates a LazyValue which will construct an instance when asked. </td>
+</tr>
+<tr>
+<td> UIDefaults.ProxyLazyValue(String c, String m, Object[] o) </td>
+<td> Creates a LazyValue which will construct an instance when asked. </td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th> Method/s </th>
+<th> Does This </th>
+</tr>
+<tr>
+<th> createValue(UIDefaults table) </th>
+<th> Creates the value retrieved from the UIDefaults table. </th>
+</tr>
+</table>
+
+</ul>
+
+<h2> </h2> 
+<h2 align="Center">Constructors of UIDefaults </h2>
 </ul>
