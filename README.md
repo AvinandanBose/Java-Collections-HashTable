@@ -547,4 +547,48 @@ public static class UIDefaults.ProxyLazyValue
 
 <h2> </h2> 
 <h2 align="Center">Constructors of UIDefaults </h2>
+<ul>
+<h3><li><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/UIDefaultsConstructors.java">1. UIDefaults()</li></h3>
+
+```Syntax
+
+Creates an empty defaults table.
+
+```
+
+<h3><li><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/UIDefaultsConstructors1.java">2. UIDefaults(int initialCapacity, float loadFactor)</li></h3>
+
+```Syntax
+
+Creates an empty defaults table with the specified initial capacity and load factor.
+
+```
+
+<h3><li><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/UIDefaultsConstructors2.java">3. UIDefaults(Object[] keyValueList)</li></h3>
+
+```Syntax
+
+Creates a defaults table initialized with the specified key/value pairs.
+
+```
+<table>
+<tr>
+<th> Constructor </th>
+<th> Description </th>
+</tr>
+<tr>
+<td> UIDefaults() </td>
+<td> Creates an empty defaults table. </td>
+</tr>
+<tr>
+<td> UIDefaults(int initialCapacity, float loadFactor) </td>
+<td> Creates an empty defaults table with the specified initial capacity and load factor. </td>
+</tr>
+<tr>
+<td> UIDefaults(Object[] keyValueList) </td>
+<td> Creates a defaults table initialized with the specified key/value pairs. </td>
+</tr>
+</table>
+
+</ul>
 </ul>
