@@ -361,5 +361,28 @@ in order to accommodate and access its entries more efficiently.</th>
 <h1> </h1>
 <h1 align="Center"> A. UIDefaults </h1>
 <ul>
-<h3> <i> <ins> Def: </ins> </i> A table of defaults for Swing components. Applications can set/get default values via the UIManager. </h3>
+<h3><li> <i> <ins> 1. Def: </ins> </i> A table of defaults for Swing components. Applications can set/get default values via the UIManager. </li></h3>
+
+<h3><li>2. UIDefaults have some nested classes as discussed below . </li></h3>
+
+<h2></h2>
+<h2 align="Center"> Diagram of Nested Classes of UIDefaults </h2>
+<ul>
+
+```mermaid
+ 
+ graph TD;
+ UIDefaults-->|NestedClass| UIDefaults.ActiveValue;
+ UIDefaults-->|NestedClass| UIDefaults.LazyInputMap;
+ UIDefaults-->|NestedClass| UIDefaults.LazyValue;
+ UIDefaults-->|NestedClass| UIDefaults.ProxyLazyValue;
+```
+
+</ul>
+
+<h2></h2>
+<h2 align="Center"> Description of Nested Classes of UIDefaults </h2>
+<ul>
+
+</ul>
 </ul>
