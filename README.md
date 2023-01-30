@@ -981,6 +981,14 @@ It is Deprecated.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesMethods10.java">11. setProperty​(String key, String value)</li></h3>
+
+```Syntax
+
+Calls the Hashtable method put.
+
+```
+
 </ul>
 </ul>
 
