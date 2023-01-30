@@ -1,0 +1,57 @@
+#This is a comment
+#Mon Jan 30 15:00:51 IST 2023
+key1=value1
+properties.put("D",="4");
+key2=value2
+properties.store(outputStream,="This is a comment");
+properties.list(System.out);=
+key3=value3
+OutputStream=outputStream4 \= new FileOutputStream("C\:\\Users\\bosea\\Java_HashTable\\PropertiesMethods5.xml");
+//store\u00E2\u0080\u008B(Writer=writer, String comments)
+String=value2 \= properties.getProperty("G", "7");
+List<?>=list \= new ArrayList<>(properties.stringPropertyNames());
+//load\u00E2\u20AC\u2039(InputStream=inStream)
+//storeToXML\u00E2\u0080\u008B(OutputStream=os, String comment, String encoding)
+//storeToXML\u00E2\u20AC\u2039(OutputStream=os, String comment, String encoding)
+//load\u00E2\u20AC\u2039(Reader=reader)
+Enumeration<?>=enumeration \= properties.propertyNames();
+//stringPropertyNames()=
+//store\u00E2\u20AC\u2039(Writer=writer, String comments)
+properties.storeToXML(outputStream2,="This is a comment");
+System.out.println("Value=of G is\: " + properties.getProperty("G"));
+//setProperty\u00E2\u20AC\u2039(String=key, String value)
+properties.put("A",="1");
+//loadFromXML\u00E2\u0080\u008B(InputStream=in)
+properties.put("C",="3");
+A=1
+properties.setProperty("G",="7");
+B=2
+properties.loadFromXML(inputStream2);=
+C=3
+D=4
+import=java.util.Properties;
+properties.save(outputStream1,="This is a comment"); //Deprecated
+Reader=reader \= new InputStreamReader(inputStream1);
+Properties=properties \= new Properties();
+writer.flush();=
+while(enumeration.hasMoreElements()){=
+//load\u00E2\u0080\u008B(Reader=reader)
+properties.storeToXML(outputStream3,="This is a comment", "UTF-8");
+public=static void main(String[] args) throws IOException{
+properties.load(inputStream);=
+properties.list(writer);=
+//setProperty\u00E2\u0080\u008B(String=key, String value)
+PrintWriter=writer \= new PrintWriter(System.out);
+//=storeToXML\u00E2\u20AC\u2039(OutputStream os, String comment, Charset charset)
+InputStream=inputStream2 \= new FileInputStream("C\:\\Users\\bosea\\Java_HashTable\\PropertiesHashtable.xml");
+System.out.println(enumeration.nextElement());=
+Charset=charset \= Charset.forName("UTF-8");
+//loadFromXML\u00E2\u20AC\u2039(InputStream=in)
+properties.store(writer1,="This is a comment");
+properties.load(reader);=
+System.out.println(list);=
+properties.storeToXML(outputStream4,="This is a comment", charset);
+//load\u00E2\u0080\u008B(InputStream=inStream)
+}=
+Writer=writer1 \= new FileWriter("C\:\\Users\\bosea\\Java_HashTable\\PropertiesMethods2.txt");
+properties.put("B",="2");
