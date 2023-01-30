@@ -885,7 +885,7 @@ of Property object.
 <h2> </h2>
 <h2 align="Center"> Methods of Properties Class </h2>
 <ul>
-<li><h2>1.Methods of Properties </h2></li>
+<li><h2>1.Methods of Properties Class</h2></li>
 <ul>
 <li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesMethods.java">1. getProperty​(String key)</li></h3>
 
