@@ -1008,6 +1008,15 @@ contained in this table.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesMethods13.java">14. storeToXML​(OutputStream os, String comment, String encoding)</li></h3>
+
+```Syntax
+
+Emits an XML document representing all of the properties contained in this table, 
+using the specified encoding.
+
+```
+
 
 </ul>
 </ul>
