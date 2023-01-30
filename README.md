@@ -800,3 +800,40 @@ Creates a defaults table initialized with the specified key/value pairs.
 <h1> </h1>
 <h1 align="Center"> B. Properties Class </h1>
 
+```mermaid
+
+sequenceDiagram
+
+   java.util.Properties->>java.util.HashTable:extends 
+  
+```
+
+<h3 align="Center">
+
+```Syntax
+
+public class Properties extends Hashtable<Object,​Object>
+
+```
+
+</h3>
+
+<ul>
+<li><h3>1. The Properties class is a subclass of Hashtable.</h3></li>
+<li><h3>2. The Properties class represents a persistent set of properties. </h3></li>
+<li><h3>3. The Properties can be saved to a stream or loaded from a stream.</h3></li>
+<li><h3>4. The Properties class belongs to java.util package.</h3></li>
+<li><h3>5. The properties object contains key and value pair both as a string. </h3></li>
+<li><h3>6. The Properties class can be used to get property value based on the property key. </h3></li>
+<li><h3>7. The Properties class provides methods to get data from the properties file and store data into the properties file. </h3></li>
+<li><h3>8. The Properties class can be used to get the properties of a system.</h3></li>
+<li><h3>9. The Properties class is used to maintain a list of values in which the key is a string and the value is also a string i.e; it can be used to store and retrieve string type data from the properties file.</h3></li>
+
+<li><h3>10. The Properties class can specify other properties list as it’s the default. If a particular key property is not present in the original Properties list, the default properties will be searched.</h3></li>
+
+<li><h3>11. The object of Properties class does not require external synchronization and Multiple threads can share a single Properties object.</h3></li>
+
+<h2> </h2>
+<h2 align="Center"> Constructor of Properties Class </h2>
+</ul>
+
