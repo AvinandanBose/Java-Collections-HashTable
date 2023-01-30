@@ -911,6 +911,15 @@ Prints this property list out to the specified output stream.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesMethods3.java">4. list​(PrintWriter out)</li></h3>
+
+```Syntax
+
+Prints this property list out to the specified output stream.
+
+```
+
+
 
 
 </ul>
