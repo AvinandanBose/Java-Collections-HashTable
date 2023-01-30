@@ -1026,6 +1026,17 @@ using the specified encoding.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesMethods15.java">16. stringPropertyNames()</li></h3>
+
+```Syntax
+
+Returns an unmodifiable set of keys from this property list where the key 
+and its corresponding value are strings, including distinct keys in the,
+default property list if a key of the same name has not already been found,
+from the main properties list.
+
+```
+
 
 </ul>
 </ul>
