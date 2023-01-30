@@ -1017,6 +1017,15 @@ using the specified encoding.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesMethods14.java">15. storeToXML​(OutputStream os, String comment, Charset charset)</li></h3>
+
+```Syntax
+
+Emits an XML document representing all of the properties contained in this table, 
+using the specified encoding.
+
+```
+
 
 </ul>
 </ul>
