@@ -927,6 +927,14 @@ Reads a property list (key and element pairs) from the input byte stream.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/Reader/PropertiesMethods5.java">6. load​(Reader reader)</li></h3>
+
+```Syntax
+
+Reads a property list (key and element pairs) ,
+from the input character stream in a simple line-oriented format.
+
+```
 
 
 
