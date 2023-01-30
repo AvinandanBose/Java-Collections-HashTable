@@ -999,6 +999,15 @@ suitable for using the load(Reader) method.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesMethods12.java">13. storeToXML​(OutputStream os, String comment)</li></h3>
+
+```Syntax
+
+Emits an XML document representing all of the properties
+contained in this table.
+
+```
+
 
 </ul>
 </ul>
