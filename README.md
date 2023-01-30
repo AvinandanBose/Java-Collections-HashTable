@@ -989,6 +989,17 @@ Calls the Hashtable method put.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesMethods11.java">12. store​(Writer writer, String comments)</li></h3>
+
+```Syntax
+
+Writes this property list (key and element pairs) in this Properties table ,
+to the output character stream in a format ,
+suitable for using the load(Reader) method.
+
+```
+
+
 </ul>
 </ul>
 
