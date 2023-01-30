@@ -949,6 +949,17 @@ is compulsory.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesMethods7.java">8. propertyNames()</li></h3>
+
+```Syntax
+
+Returns an enumeration of all the keys in this property list, 
+including distinct keys in the default property list,
+if a key of the same name has not already been found,
+from the main properties list.
+
+```
+
 
 
 </ul>
