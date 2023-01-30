@@ -895,6 +895,16 @@ Searches for the property with the specified key in this property list.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesMethods1.java">2. getProperty​(String key, String defaultValue)</li></h3>
+
+```Syntax
+
+Searches for the property with the specified key in this property list.
+
+```
+
+
+
 </ul>
 </ul>
 
