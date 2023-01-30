@@ -936,6 +936,19 @@ from the input character stream in a simple line-oriented format.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/XML/PropertiesMethods6.java">7. loadFromXML​(InputStream in)</li></h3>
+
+```Syntax
+
+Loads all of the properties represented by the XML document ,
+on the specified input stream into this properties table.
+
+Note: In XML file,
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+is compulsory.
+
+```
+
 
 
 </ul>
