@@ -960,6 +960,16 @@ from the main properties list.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesMethods8.java">9. store​(OutputStream out, String comments)</li></h3>
+
+```Syntax
+
+Writes this property list (key and element pairs) in this Properties table ,
+to the output stream in a format suitable for loading into a ,
+Properties table using the load(InputStream) method.
+
+```
+
 
 
 </ul>
