@@ -919,6 +919,14 @@ Prints this property list out to the specified output stream.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/InputStream/PropertiesMethods4.java">5. load​(InputStream inStream)</li></h3>
+
+```Syntax
+
+Reads a property list (key and element pairs) from the input byte stream.
+
+```
+
 
 
 
