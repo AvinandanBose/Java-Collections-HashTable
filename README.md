@@ -903,6 +903,14 @@ Searches for the property with the specified key in this property list.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesMethods2.java">3. list​(PrintStream out)</li></h3>
+
+```Syntax
+
+Prints this property list out to the specified output stream.
+
+```
+
 
 
 </ul>
