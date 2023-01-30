@@ -970,7 +970,16 @@ Properties table using the load(InputStream) method.
 
 ```
 
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesMethods9.java">10. save​(OutputStream out, String comments)</li></h3>
 
+```Syntax
+
+This method does not throw an IOException ,
+if an I/O error occurs while saving the property list.
+
+It is Deprecated.
+
+```
 
 </ul>
 </ul>
