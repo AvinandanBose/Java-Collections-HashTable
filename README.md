@@ -1037,9 +1037,114 @@ from the main properties list.
 
 ```
 
+<table>
+<tr>
+<th>Methods of Properties</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>1.getProperty​(String key)</td>
+<td>Searches for the property with the specified key in this property list.</td>
+</tr>
+
+<tr>
+<td>2. getProperty​(String key, String defaultValue)</td>
+<td>Searches for the property with the specified key in this property list.</td>
+</tr>
+
+<tr>
+<td>3. list​(PrintStream out)</td>
+<td>Prints this property list out to the specified output stream.</td>
+</tr>
+
+
+<tr>
+<td>4. load​(InputStream inStream)</td>
+<td>Reads a property list (key and element pairs) from the input byte stream.</td>
+</tr>
+
+<tr>
+<td>5. load​(Reader reader)</td>
+<td>Reads a property list (key and element pairs) ,from the input character stream in a simple line-oriented format.</td>
+</tr>
+
+<tr>
+<td>6. loadFromXML​(InputStream in)</td>
+<td>Loads all of the properties represented by the XML document ,on the specified input stream into this properties table.</td>
+</tr>
+
+<tr>
+<td>7. loadFromXML​(InputStream in)</td>
+<td>Loads all of the properties represented by the XML document ,on the specified input stream into this properties table.Note: In XML file,
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd"> is compulsory.</td>
+</tr>
+
+<tr>
+<td>8. propertyNames()</td>
+<td>Returns an enumeration of all the keys in this property list, including distinct keys in the default property list,
+if a key of the same name has not already been found,from the main properties list.</td>
+</tr>
+
+<tr>
+<td>9. store​(OutputStream out, String comments)</td>
+<td>Writes this property list (key and element pairs) in this Properties table ,
+to the output stream in a format suitable for loading into a ,
+Properties table using the load(InputStream) method.</td>
+</tr>
+
+<tr>
+<td>10. save​(OutputStream out, String comments)</td>
+<td>This method does not throw an IOException ,
+if an I/O error occurs while saving the property list.
+It is Deprecated.</td>
+</tr>
+
+<tr>
+<td>11. setProperty​(String key, String value)</td>
+<td>Calls the Hashtable method put.</td>
+</tr>
+
+<tr>
+<td>12. store​(Writer writer, String comments)</td>
+<td>Emits an XML document representing all of the properties
+contained in this table.</td>
+</tr>
+
+<tr>
+<td>13. storeToXML​(OutputStream os, String comment)</td>
+<td>Emits an XML document representing all of the properties
+contained in this table.</td>
+</tr>
+
+
+<tr>
+<td>14. storeToXML​(OutputStream os, String comment, String encoding)</td>
+<td>Emits an XML document representing all of the properties contained in this table, 
+using the specified encoding.</td>
+</tr>
+
+<tr>
+<td>15. storeToXML​(OutputStream os, String comment, Charset charset)</td>
+<td>Emits an XML document representing all of the properties contained in this table, 
+using the specified encoding.</td>
+</tr>
+
+<tr>
+<td>16. stringPropertyNames()</td>
+<td>Returns an unmodifiable set of keys from this property list where the key 
+and its corresponding value are strings, including distinct keys in the,
+default property list if a key of the same name has not already been found,
+from the main properties list.</td>
+</tr>
+
+</table>
+</ul>
 
 </ul>
-</ul>
+<li><h2>2. Methods Inherited from HashTable Class in Properties Class</h2></li>
+<ul>
 
+</ul>
 </ul>
 
