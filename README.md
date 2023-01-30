@@ -835,5 +835,55 @@ public class Properties extends Hashtable<Object,​Object>
 
 <h2> </h2>
 <h2 align="Center"> Constructor of Properties Class </h2>
+<ul>
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesConstructor.java">1. Properties()</li></h3>
+
+```Syntax
+
+It creates an empty property list with no default values.
+
+```
+
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesConstructor1.java">2. Properties(int initialCapacity)</li></h3>
+
+```Syntax
+
+It creates an empty property list with an initial capacity and
+no default values.
+
+```
+
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesConstructor2.java">3. Properties(Properties defaults)</li></h3>
+
+```Syntax
+
+It creates an empty property list with the specified defaults,
+of Property object.
+
+```
+
+<table>
+
+<tr>
+<th>Constructors</th>
+<th> Description </th>
+</tr>
+
+<tr>
+<td> Properties(int initialCapacity)</td>
+<td>It creates an empty property list with an initial capacity and no default values. </td>
+</tr>
+
+<tr>
+<td>Properties(Properties defaults)</td>
+<td>It creates an empty property list with the specified defaults, of Property object. </td>
+</tr>
+
+</table>
+</ul>
+
+<h2> </h2>
+<h2 align="Center"> Methods of Properties Class </h2>
+
 </ul>
 
