@@ -1144,7 +1144,9 @@ from the main properties list.</td>
 </ul>
 <li><h2>2. Methods Inherited from HashTable Class in Properties Class</h2></li>
 <ul>
-
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesHashTableMethods.java">1. Methods Inherited from HashTable Class in Properties Class</li></h3>
+<li><h3><a href="https://github.com/AvinandanBose/Java-Collections-HashTable/blob/main/PropertiesHashTableMethods.java">2. Implementation of Rehash() Method.</li></h3>
+<h3><i><ins>Note :<ins></i> These methods are already discussed  👉: <a href="https://github.com/AvinandanBose/Java-Collections-Map"> Here </a></h3> 
 </ul>
 </ul>
 
